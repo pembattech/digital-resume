@@ -133,10 +133,13 @@ a {
     border-top: 1px solid var(--mainBorderColor);
 }
 
+
+
 .card--project a {
     color: var(--mainTextColor);
-
     transition: 0.3s;
+    display: flex;
+    padding: 0 0 8px 0;
 }
 
 .card--project a:hover {
